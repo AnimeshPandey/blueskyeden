@@ -1317,18 +1317,18 @@ body {
 
 @media (max-width:500px) {
     .post-full-meta {
-        font-size: 0.8rem;
-        line-height: 1.0em
+        font-size: 1.0rem;
+        line-height: 1.1em
     }
     .post-full-title {
-        font-size: 2.3rem
+        font-size: 2.5rem
     }
     .post-full-image {
         height: 350px;
         margin-bottom: 4vw
     }
     .post-full-content {
-        padding: 0.7em;
+        padding: 0.6em;
     }
     .post-full-content:after,
     .post-full-content:before {
@@ -1336,10 +1336,10 @@ body {
     }
     .post-full-content h1,
     .post-full-content h2 {
-        font-size: 2.3rem
+        font-size: 2.5rem
     }
     .post-full-content h3 {
-        font-size: 1.6rem
+        font-size: 1.8rem
     }
 }
 
