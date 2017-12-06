@@ -1754,7 +1754,7 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    color: #15171a;
+    color: #4d94ff;
     line-height: 1.1em;
     font-weight: 700
 }
@@ -1810,7 +1810,7 @@ body {
 .floating-header-share svg {
     width: auto;
     height: 16px;
-    fill: #000
+    fill: #fff
 }
 
 .floating-header-share-label {
