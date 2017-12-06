@@ -977,7 +977,8 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background: linear-gradient(#31081f, #000, #31081f);
+    background : #f6e4f3;
+/*    background: linear-gradient(#31081f, #000, #31081f);*/
 }
 
 .post-full {
