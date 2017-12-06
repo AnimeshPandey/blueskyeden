@@ -518,6 +518,7 @@ body {
 
 .site-main {
     z-index: 100;
+    background: linear-gradient(#31081f, #000, #31081f);
     -ms-flex-positive: 1;
     flex-grow: 1
 }
@@ -551,7 +552,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: linear-gradient(red, yellow);
+    background: linear-gradient(#000, #31081f);
 /*    background: #090a0b no-repeat 50%;*/
     background-size: cover
 }
@@ -973,7 +974,7 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
+    background: linear-gradient(#31081f, #000, #31081f);
 }
 
 .post-full {
@@ -2213,7 +2214,7 @@ body {
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: #000
+    background: linear-gradient(#31081f, #000);
 }
 
 .site-footer-content {
