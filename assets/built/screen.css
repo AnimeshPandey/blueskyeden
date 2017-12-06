@@ -1567,7 +1567,8 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 -20px;
-    padding: 40px 0 0
+    padding: 40px 0 0;
+    background-color: #cc0000;
 }
 
 .read-next-card,
@@ -1586,7 +1587,7 @@ body {
     margin: 0 20px 40px;
     padding: 25px;
     color: #fff;
-    background: #15171a 50%;
+    background: #31081f 50%;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03)
@@ -1600,7 +1601,7 @@ body {
     bottom: 0;
     left: 0;
     display: block;
-    background: linear-gradient(135deg, rgba(0, 40, 60, .8), rgba(0, 20, 40, .7));
+    background: linear-gradient(135deg, rgba(0, 0, 0, .8), rgba(49, 8, 31, .7));
     border-radius: 5px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px)
