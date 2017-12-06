@@ -1,5 +1,5 @@
 aside.read-next.outer {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 a,
@@ -1572,7 +1572,7 @@ body {
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 40px 0 0;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .read-next-card,
