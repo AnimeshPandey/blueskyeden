@@ -551,7 +551,8 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: #090a0b no-repeat 50%;
+    background: #31081f no-repeat 50%;
+    /*    background: #090a0b no-repeat 50%;*/
     background-size: cover
 }
 
