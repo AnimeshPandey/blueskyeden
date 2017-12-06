@@ -552,8 +552,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: linear-gradient(#000, #31081f);
-/*    background: #090a0b no-repeat 50%;*/
+    background: #000 no-repeat 50%;
     background-size: cover
 }
 
