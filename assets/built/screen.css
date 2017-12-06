@@ -1,3 +1,7 @@
+aside.read-next.outer {
+    background-color: whitesmoke;
+}
+
 a,
 abbr,
 acronym,
@@ -1568,7 +1572,7 @@ body {
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 40px 0 0;
-    background-color: #cc0000;
+    background-color: whitesmoke;
 }
 
 .read-next-card,
