@@ -1,5 +1,5 @@
 aside.read-next.outer {
-    background-color: white;
+    background-color: black;
 }
 
 a,
@@ -1534,7 +1534,7 @@ body {
 }
 
 .author-card-name a {
-    color: #f4b90b;
+    color: #f5c740;
     font-weight: 700
 }
 
@@ -1583,7 +1583,7 @@ body {
     flex-wrap: wrap;
     margin: 0 -20px;
     padding: 40px 0 0;
-    background-color: white;
+    background-color: black;
 }
 
 .read-next-card,
