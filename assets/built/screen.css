@@ -518,7 +518,7 @@ body {
 
 .site-main {
     z-index: 100;
-    background: linear-gradient(#31081f, #000, #31081f);
+    background: linear-gradient(#000, #31081f, #000);
     -ms-flex-positive: 1;
     flex-grow: 1
 }
@@ -2213,7 +2213,7 @@ body {
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: linear-gradient(#31081f, #000);
+    background: #000;
 }
 
 .site-footer-content {
