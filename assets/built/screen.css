@@ -557,13 +557,13 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: #76427a no-repeat 50%;
+    background: #76427a no-repeat;
     background-size: cover
 }
 
 .site-header:before {
     bottom: 0;
-    background: rgba(105, 48, 109, .18)
+    background: rgb(105, 48, 109)
 }
 
 .site-header:after,
@@ -580,7 +580,7 @@ body {
 .site-header:after {
     bottom: auto;
     height: 80px;
-    background: linear-gradient(rgba(105, 48, 109, .1), transparent)
+    background: linear-gradient(rgb(105, 48, 109), transparent)
 }
 
 .site-header.no-cover:after,
