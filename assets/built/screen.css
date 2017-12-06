@@ -551,7 +551,8 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: #090a0b no-repeat 50%;
+    background: linear-gradient(red, yellow);
+/*    background: #090a0b no-repeat 50%;*/
     background-size: cover
 }
 
@@ -972,7 +973,7 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background: #000;
+    background: #fff;
 }
 
 .post-full {
