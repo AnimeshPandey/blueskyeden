@@ -1550,7 +1550,8 @@ body {
     display: block;
     padding: 9px 16px;
     border: 1px solid #aebbc1;
-    color: #738a94;
+    color: #000;
+    background-color: #fff;
     font-size: 1.2rem;
     line-height: 1;
     font-weight: 500;
