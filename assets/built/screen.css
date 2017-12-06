@@ -522,7 +522,8 @@ body {
 
 .site-main {
     z-index: 100;
-    background: linear-gradient(#000, #31081f, #000);
+    background-color : #f6e4f3;
+/*    background: linear-gradient(#000, #31081f, #000);*/
     -ms-flex-positive: 1;
     flex-grow: 1
 }
@@ -977,7 +978,7 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background : #f6e4f3;
+    background-color : #f6e4f3;
 /*    background: linear-gradient(#31081f, #000, #31081f);*/
 }
 
