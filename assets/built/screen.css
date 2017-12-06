@@ -425,7 +425,7 @@ blockquote cite a {
 }
 
 a {
-    color: #26a8ed;
+    color: #f4b90b;
     text-decoration: none
 }
 
@@ -605,6 +605,7 @@ body {
 .site-title {
     margin: 0;
     padding: 0;
+    color : #f4b90b;
     font-size: 3.8rem;
     font-weight: 700;
     z-index: 10
@@ -669,7 +670,7 @@ body {
     display: block;
     margin-right: 24px;
     padding: 9px 0;
-    color: rgb(170, 204, 255);
+    color: #f4b90b;
     font-size: 1.7rem;
     line-height: 1em;
     font-weight: 700;
@@ -865,11 +866,16 @@ body {
     background-size: cover
 }
 
+.post-card-content {
+    background-color: #ac6c94;
+}
 .post-card-content-link {
     position: relative;
     display: block;
+/*    background: linear-gradient(135deg, rgba(0, 0, 0, .95), rgba(102, 108, 148, .95));*/
+    background-color: #ac6c94;
     padding: 25px 25px 0;
-    color: #15171a
+    color: white
 }
 
 .post-card-content-link:hover {
@@ -879,7 +885,7 @@ body {
 .post-card-tags {
     display: block;
     margin-bottom: 4px;
-    color: #738a94;
+    color: #d6bebe;
     font-size: 1.2rem;
     line-height: 1.15em;
     font-weight: 500;
@@ -907,7 +913,9 @@ body {
 }
 
 .post-card-meta {
-    padding: 0 25px 25px
+    padding: 0 25px 25px;
+    background-color: #ac6c94;
+    color: white;
 }
 
 .author-profile-image {
@@ -977,7 +985,7 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background: linear-gradient(#31081f, #000, #31081f);
+    background: linear-gradient(#000, #31081f, #000);
 }
 
 .post-full {
@@ -999,14 +1007,14 @@ body {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #738a94;
+    color: #f4b90b;
     font-size: 1.4rem;
     font-weight: 600;
     text-transform: uppercase
 }
 
 .post-full-meta-date {
-    color: #3eb0ef
+    color: #f4b90b
 }
 
 .post-full-title {
@@ -1526,7 +1534,7 @@ body {
 }
 
 .author-card-name a {
-    color: #15171a;
+    color: #f4b90b;
     font-weight: 700
 }
 
@@ -1594,7 +1602,7 @@ body {
     margin: 0 20px 40px;
     padding: 25px;
     color: #fff;
-    background: #31081f 50%;
+    background: #ac6c94;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03)
@@ -1608,7 +1616,7 @@ body {
     bottom: 0;
     left: 0;
     display: block;
-    background: linear-gradient(135deg, rgba(0, 0, 0, .8), rgba(49, 8, 31, .7));
+/*    background: linear-gradient(135deg, rgba(0, 0, 0, .95), rgba(102, 108, 148, .95));*/
     border-radius: 5px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px)
@@ -1762,7 +1770,7 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    color: #aaccff;
+    color: #f4b90b;
     line-height: 1.1em;
     font-weight: 700
 }
@@ -1829,7 +1837,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     margin-right: 10px;
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .9);
     font-weight: 500
 }
 
@@ -2222,7 +2230,7 @@ body {
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: #69306d;
+    background: #000;
 }
 
 .site-footer-content {
