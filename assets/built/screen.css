@@ -522,7 +522,8 @@ body {
 
 .site-main {
     z-index: 100;
-    background: linear-gradient(#000, #31081f, #000);
+    background: linear-gradient(#000, #030303, #0a0a0a, #030303, #000);
+/*    background: linear-gradient(#000, #31081f, #000);*/
     -ms-flex-positive: 1;
     flex-grow: 1
 }
@@ -985,7 +986,8 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background: linear-gradient(#000, #31081f, #000);
+    background: linear-gradient(#000, #0d0d0d, #000);
+/*    background: linear-gradient(#000, #31081f, #000);*/
 }
 
 .post-full {
