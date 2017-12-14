@@ -1537,8 +1537,8 @@ body {
 }
 
 .author-card-name a {
-    color: rgb(245, 255, 7);
-    font-weight: 700
+    color: #ffff00;
+    font-weight: 700;
 }
 
 .author-card-name a:hover {
