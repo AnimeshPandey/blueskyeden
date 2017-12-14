@@ -115,7 +115,7 @@ img {
 
 html {
     box-sizing: border-box;
-    font-family: 'Nunito' , sans-serif;
+    font-family: 'Nunito', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -187,7 +187,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'Nunito' , monospace, monospace;
+    font-family: 'Nunito', monospace, monospace;
     font-size: 1em
 }
 
@@ -291,7 +291,7 @@ html {
 
 body {
     color: #3c484e;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue,'Nunito' , sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, 'Nunito', sans-serif;
     font-size: 1.5rem;
     line-height: 1.6em;
     font-weight: 400;
@@ -523,7 +523,7 @@ body {
 .site-main {
     z-index: 100;
     background: linear-gradient(#000, #030303, #0a0a0a, #030303, #000);
-/*    background: linear-gradient(#000, #31081f, #000);*/
+    /*    background: linear-gradient(#000, #31081f, #000);*/
     -ms-flex-positive: 1;
     flex-grow: 1
 }
@@ -606,7 +606,7 @@ body {
 .site-title {
     margin: 0;
     padding: 0;
-    color : #f4b90b;
+    color: #f4b90b;
     font-size: 3.8rem;
     font-weight: 700;
     z-index: 10
@@ -870,10 +870,11 @@ body {
 .post-card-content {
     background-color: #ac6c94;
 }
+
 .post-card-content-link {
     position: relative;
     display: block;
-/*    background: linear-gradient(135deg, rgba(0, 0, 0, .95), rgba(102, 108, 148, .95));*/
+    /*    background: linear-gradient(135deg, rgba(0, 0, 0, .95), rgba(102, 108, 148, .95));*/
     background-color: #ac6c94;
     padding: 25px 25px 0;
     color: white
@@ -910,7 +911,7 @@ body {
 }
 
 .post-card-excerpt {
-    font-family: 'Nunito' , Georgia, serif
+    font-family: 'Nunito', Georgia, serif
 }
 
 .post-card-meta {
@@ -986,8 +987,8 @@ body {
 .page-template .site-main,
 .post-template .site-main {
     padding-bottom: 4vw;
-    background: linear-gradient(#000, #0d0d0d, #000);
-/*    background: linear-gradient(#000, #31081f, #000);*/
+    background: linear-gradient(#000, #030303, #0a0a0a, #030303, #000);
+    /*    background: linear-gradient(#000, #31081f, #000);*/
 }
 
 .post-full {
@@ -1056,7 +1057,7 @@ body {
     min-height: 230px;
     margin: 0 auto;
     padding: 70px 100px 0;
-    font-family: 'Nunito' , Georgia, serif;
+    font-family: 'Nunito', Georgia, serif;
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff
@@ -1281,7 +1282,7 @@ body {
     margin-top: -75px;
     padding-top: 75px;
     color: #090a0b;
-    font-family: 'Nunito' , -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif
 }
 
 .post-full-content h1 {
@@ -1618,7 +1619,7 @@ body {
     bottom: 0;
     left: 0;
     display: block;
-/*    background: linear-gradient(135deg, rgba(0, 0, 0, .95), rgba(102, 108, 148, .95));*/
+    /*    background: linear-gradient(135deg, rgba(0, 0, 0, .95), rgba(102, 108, 148, .95));*/
     border-radius: 5px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px)
@@ -1744,7 +1745,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     height: 60px;
-    color : white;
+    color: white;
     border-bottom: 1px solid rgba(0, 0, 0, .06);
     background: #000;
     transition: all .5s cubic-bezier(.19, 1, .22, 1);
@@ -1986,7 +1987,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     margin: 0 0 10px;
-    font-family: 'Nunito' , Georgia, serif;
+    font-family: 'Nunito', Georgia, serif;
     font-style: italic
 }
 
@@ -2123,7 +2124,7 @@ body {
 .subscribe-overlay-description {
     max-width: 650px;
     margin: 0 auto 50px;
-    font-family: 'Nunito' , Georgia, serif;
+    font-family: 'Nunito', Georgia, serif;
     font-size: 3rem;
     line-height: 1.3em;
     font-weight: 300;
