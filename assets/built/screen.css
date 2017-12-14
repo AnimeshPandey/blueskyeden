@@ -1,3 +1,7 @@
+span.post-card-author a {
+    color: #ffff00;
+}
+
 aside.read-next.outer {
     background-color: black;
 }
