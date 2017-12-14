@@ -21,7 +21,7 @@
     "strip-spaces": true,
     "tab-size": 4,
     "unitless-zero": true,
-    "sort-order": [ [
+    "sort-order": [[
         "content",
         "visibility",
         "position",
@@ -233,5 +233,5 @@
         "min-zoom",
         "user-zoom",
         "orientation"
-    ] ]
+    ]]
 }

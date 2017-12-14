@@ -34,7 +34,7 @@ $(function ($) {
         ticking = true;
     }
 
-    function infiniteScroll () {
+    function infiniteScroll() {
         // return if already loading
         if (isLoading) {
             return;
@@ -65,7 +65,9 @@ $(function ($) {
         }).fail(function (xhr) {
             // 404 indicates we've run out of pages
             if (xhr.status === 404) {
-                window.removeEventListener('scroll', onScroll, {passive: true});
+                window.removeEventListener('scroll', onScroll, {
+                    passive: true
+                });
                 window.removeEventListener('resize', onResize);
             }
 
@@ -76,7 +78,9 @@ $(function ($) {
         });
     }
 
-    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('scroll', onScroll, {
+        passive: true
+    });
     window.addEventListener('resize', onResize);
 
     infiniteScroll();
